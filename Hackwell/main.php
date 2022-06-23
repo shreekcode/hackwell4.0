@@ -30,11 +30,12 @@
   <br>
 
   <label for="tname"><b>Theater Name</b></label>
-  <input type="text" id = "tname" name = "tname"><br>
+  <input id="tname" type="text" name = "tname"><br>
   <input type="submit" value = "submit">
 </form>
-<script src="select.js"></script>
 </div>
+
+<script src="select.js"></script>
 <?php
 
 ?>

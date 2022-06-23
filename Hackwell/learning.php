@@ -30,8 +30,6 @@
 
 <h3>LEARNING</h3>
   <h4>ADD A TEXT FILE!!</h4>
-  <h1>Hello World</h1>
-
   <div>
     <input type="file">
     <textarea id="area" cols="50" rows="20" placeholder="text will appear here">
