@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motizer</title>
+</head>
+<body>
+    <h1>Motizer</h1>
+    <p>Select your mode</p>
+    <div class="tab">
+        <button class="tablinks" onclick="openTab(event, 'LearningMode')">Learning Mode</button>
+        <button class="tablinks" onclick="openTab(event, 'DetectionMode')">Detection Mode</button>
+    </div>
+
+    <div class="div" id="LearningMode" class = "tabcontent">
+        <button class=""></button>
+    </div>
+
+    <script>
+        function openCity(evt, cityName) {
+          var i, tabcontent, tablinks;
+          tabcontent = document.getElementsByClassName("tabcontent");
+          for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+          }
+          tablinks = document.getElementsByClassName("tablinks");
+          for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+          }
+          document.getElementById(cityName).style.display = "block";
+          evt.currentTarget.className += " active";
+        }
+        </script>
+</body>
+</html>
