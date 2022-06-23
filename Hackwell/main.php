@@ -5,13 +5,13 @@
     a {
         color: inherit;
     }
-    
+
     textarea {
         horizontal-align: left ;
         resize:none;
         display: inline-block;
     }
-  
+
     label {
       text-align: center;
       display: inline-block;
@@ -33,6 +33,7 @@
   <input type="text" id = "tname" name = "tname"><br>
   <input type="submit" value = "submit">
 </form>
+<script src="select.js"></script>
 </div>
 <?php
 

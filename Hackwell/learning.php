@@ -5,13 +5,13 @@
     a {
         color: inherit;
     }
-    
+
     textarea {
         horizontal-align: left ;
         resize:none;
         display: inline-block;
     }
-  
+
     label {
       text-align: right;
       display: inline-block;
@@ -30,12 +30,16 @@
 
 <h3>LEARNING</h3>
   <h4>ADD A TEXT FILE!!</h4>
-  <script src="select.js"></script>
-  <div> 
+  <h1>Hello World</h1>
+
+  <div>
     <input type="file">
-    <textarea onClick ="foo()" cols="50" rows="20" placeholder="text will appear here">
+    <textarea id="area" cols="50" rows="20" placeholder="text will appear here">
     </textarea>
   </div>
+  <script src="select.js"></script>
+
+  </script>
   <script src="display.js"></script>
 </div>
 <?php
