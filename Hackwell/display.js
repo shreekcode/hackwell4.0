@@ -34,3 +34,4 @@ input.addEventListener('change', () => {
  
     reader.readAsText(file);
 });
+
