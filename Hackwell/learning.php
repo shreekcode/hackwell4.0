@@ -13,9 +13,13 @@
     }
   
     label {
-      text-align: center;
+      text-align: right;
       display: inline-block;
-        width: 300px;
+        width: 800px;
+    }
+
+    h3,h4{
+        text-align: center;
     }
 </style>
 
@@ -24,15 +28,15 @@
   <button class="tablinks" ><a href = "detection.php">DETECTION</a></button>
 </div>
 
-<!-- Tab content -->
-<div id="LEARNING" class="tabcontent">
-<form action = "learning.php" method = POST>
-  <br>
-
-  <label for="tname"><b>Theater Name</b></label>
-  <input type="text" id = "tname" name = "tname"><br>
-  <input type="submit" value = "submit">
-</form>
+<h3>LEARNING</h3>
+  <h4>ADD A TEXT FILE!!</h4>
+  <script src="select.js"></script>
+  <div> 
+    <input type="file">
+    <textarea onClick ="foo()" cols="50" rows="20" placeholder="text will appear here">
+    </textarea>
+  </div>
+  <script src="display.js"></script>
 </div>
 <?php
 
