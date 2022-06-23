@@ -1,10 +1,12 @@
 
-let tname=document.getElementById("tname").value;
+let tname=document.getElementById("tname");
 console.log(tname);
 let area= document.getElementById("area");
 area.onselect = function() {
-  var from = area.selectionStart;
-  var to = area.selectionEnd;
-  console.log(from);
-  console.log(to);
+  let attrName = prompt("enter attribute name");
+  console.log(attrName);
+  var start = area.selectionStart+1;
+  var end = area.selectionEnd+1;
+  console.log(start);
+  console.log(end);
 };
