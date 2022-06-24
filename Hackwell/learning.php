@@ -28,6 +28,10 @@
   <button class="tablinks" ><a href = "detection.php">DETECTION</a></button>
 </div>
 
+<?php
+   $var = $_POST["tname"]
+?>
+
 <h3>LEARNING</h3>
   <h4>ADD A TEXT FILE!!</h4>
   <div>
@@ -35,9 +39,22 @@
     <textarea id="area" cols="50" rows="20" placeholder="text will appear here">
     </textarea>
   </div>
-  <script src="select.js"></script>
-
+  
+  <script>
+    var x = "<?php echo"$var"?>";
+    //let tname=document.getElementById("tname");
+    console.log(x);
+    let area= document.getElementById("area");
+    area.onselect = function() {
+    let attrName = prompt("enter attribute name");
+    console.log(attrName);
+    var start = area.selectionStart+1;
+    var end = area.selectionEnd+1;
+    console.log(start);
+    console.log(end);
+    };
   </script>
+
   <script src="display.js"></script>
 </div>
 <?php
