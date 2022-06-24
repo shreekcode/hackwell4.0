@@ -35,7 +35,6 @@
 </form>
 </div>
 
-<script src="select.js"></script>
 <?php
 
 ?>
